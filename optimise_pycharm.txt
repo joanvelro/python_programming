@@ -1,0 +1,6 @@
+Pycharm attempts to read first few data items from the data frames, and other objects and place them inline with the variable names in "Show Variables" tab.
+File / Settings / Build, Execution, Deployment / Debugger / Data views => Uncheck everything, especially "Show values inline"
+File / Settings / Build, Execution, Deployment / Python Debugger => Check everything, especially "Gevent compatible"
+File / Settings / Build, Execution, Deployment / Console => Uncheck everything, especially "Show console variables by default" (Experiment w. "Use IPython if available")
+Python console-> settings icon -> check->"simplified variable policy"
+Python console-> settings icon -> Variables Loading Policy->check->"On demand"
